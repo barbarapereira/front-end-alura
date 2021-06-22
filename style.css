@@ -184,3 +184,11 @@ td, th {
 .imagem-beneficios {
 	width: 60%;
 }
+.mapa {
+	padding: 3em 0;	
+}
+ 
+.mapa p {
+	padding: 0 0 2em;
+	text-align: center;
+}
