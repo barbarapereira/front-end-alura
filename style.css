@@ -117,3 +117,19 @@ form label, form legend {
 .checkbox {
 	margin: 20px 0;
 }
+.btn-enviar {
+	width: 40%;
+	padding: 15px 0;
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s background;
+	cursor: pointer;
+}
+
+.btn-enviar:hover {
+	background-color: darkorange;
+}
