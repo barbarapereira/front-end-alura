@@ -25,11 +25,41 @@
 	</header>
 
 	<main>
+		<form>
+			<label for="nome">Nome e Sobrenome</label>
+			<input type="text" id="nome">
+
+			<label for="email">E-mail</label>
+			<input type="email" id="email">
+
+			<label for="telefone">Telefone</label>
+			<input type="text" id="telefone">
+
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="64" rows="10" id="mensagem"></textarea>
+
+			<div>
+				<p>Como prefere o nosso contato?</p>
+				<label for="radio-email">E-mail</label>
+				<input type="radio" id="radio-email" name="contato">
+
+				<label for="radio-telefone">Telefone</label>
+				<input type="radio" id="radio-telefone" name="contato">
+
+				<label for="radio-whatsapp">WhatsApp</label>
+				<input type="radio" id="radio-whatsapp" name="contato">
+			</div>
+			<label><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+
+
+			<input type="submit" value="Enviar Formulário">
+
+		</form>
 	</main>
 
 	<footer>
 		<img src="logo-branco.png">
-		<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		<p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
 	</footer>
 </body>
 
