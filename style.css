@@ -158,6 +158,10 @@ td, th {
 	clear: left;	
 }
 
+.titulo-principal::first-letter {
+	font-weight: bold;
+}
+
 .img-utensilio {
 	width: 120px;
 	float: left;
@@ -218,6 +222,9 @@ td, th {
 	line-height: 1.5;
 }
 
+.itens::before {
+	content: '★';
+}
 .itens:first-child{
 	font-weight: bold;
 }
