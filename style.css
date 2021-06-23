@@ -237,3 +237,27 @@ td, th {
 	width: 560px;
 	margin: 2em auto 0;
 }
+
+/* seletores avançados CSS
+
+	//seletores para filhos diretos
+	main > p {
+	background-color: red;
+	}
+
+	//selecionar o primeiro irmão, que vem depois do elemento
+	img + p {
+		background-color: blueviolet;
+	}
+
+	//selecionar todos os parágrafos que vem depois da img - todos irmãos
+	img ~ p {
+		background-color: yellow;
+	}
+
+	//elecionar todos os paragrafos que não tem o #missao
+	.principal p:not(#missao) {
+		background-color: orange;
+
+	}
+*/
