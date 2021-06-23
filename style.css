@@ -249,6 +249,22 @@ td, th {
 	margin: 2em auto 0;
 }
 
+/*media query para mobile*/
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .mapa-conteudo, .video, .conteudo-beneficios, .video {
+		width: auto;
+	}
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
+
 /* seletores avançados CSS
 
 	//seletores para filhos diretos
