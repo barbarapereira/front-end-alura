@@ -204,6 +204,9 @@ td, th {
 .beneficios {
 	padding: 3em auto;
 	background-color: #888;
+	/*sombra interna no elemento
+	box-shadow: inset 0 0 30px #ff0000;
+	*/
 }
 
 .conteudo-beneficios {
@@ -231,6 +234,14 @@ td, th {
 
 .imagem-beneficios {
 	width: 50%;
+	opacity: 1;
+	transition: 3500ms;
+	/*propriedades x y blur(espalhamento) intensidade da borda(o quão mais ela espalha) cor*/
+	box-shadow: 10px 10px 20px #000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
 }
 
 .video {
@@ -258,6 +269,8 @@ td, th {
 	//elecionar todos os paragrafos que não tem o #missao
 	.principal p:not(#missao) {
 		background-color: orange;
-
 	}
+
+	//opacidade em texto - 30% de opacidade na cor preta, ultimo elemento define a qtd de opacidade
+	color: rgba(0,0,0,0,0.3)
 */
